@@ -17,7 +17,7 @@ public class RoomController {
 
     private final RoomService roomService;
 
-    private final RequestValidator requestValidator;
+    private  RequestValidator requestValidator;
 
     @PostMapping("/rooms/optimize")
     ResponseEntity<OptimizeResponse> optimizeRooms(@Valid @RequestBody OptimizeRequest optimizeRequest) {

@@ -1,4 +1,4 @@
-package com.beusable.roomoccupancymanager;
+package com.beusable.roomoccupancymanager.service;
 
 import com.beusable.roomoccupancymanager.model.OptimizeRequest;
 import com.beusable.roomoccupancymanager.model.OptimizeResponse;
